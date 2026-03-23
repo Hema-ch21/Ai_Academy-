@@ -1,9 +1,20 @@
-├── train.py # Model training + versioning
-├── validate.py # Validation gates (schema, performance, fairness)
-├── drift_detect.py # Drift detection (PSI, KL divergence)
-├── monitor.py # Production monitoring + retraining trigger
-├── ci_pipeline.yml # CI pipeline (GitHub Actions)
-├── cd_deploy.yml # CD pipeline (Canary deployment)
-├── model.pkl # Trained model
-├── metadata.json # Model metadata
-└── README.md # Project documentation
+#  MLOps Pipeline - Iris Classification
+
+This project demonstrates an **end-to-end MLOps pipeline** using the Iris dataset.  
+It covers model training, validation, drift detection, CI/CD automation, deployment strategies, and production monitoring.
+
+---
+
+
+The pipeline includes:
+
+- Model Training with versioning
+- Model Validation using quality gates
+-  Data & Prediction Drift Detection
+-  CI Pipeline (Training + Validation)
+-  CD Pipeline (Canary Deployment)
+- Production Monitoring & Auto-Retraining
+
+---
+
+
